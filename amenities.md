@@ -43,7 +43,7 @@ This guide demonstrates setting up a cinema room for a 220-flat building with th
 1. Log in to your Latch portal at your portal URL
 2. From the left navigation menu, click on **Amenities**
 
-![Amenities Menu](/assets/images/03-amenities-list.png)
+![Amenities Menu](/assets/images/amenities/03-amenities-list.png)
 
 You'll see a list of all your current amenities with their descriptions and future booking counts.
 
@@ -52,7 +52,7 @@ You'll see a list of all your current amenities with their descriptions and futu
 1. Click the **Create Amenity** button in the top right corner
 2. You'll see an introduction dialog explaining the amenities feature
 
-![Create Amenity Dialog](/assets/images/04-create-amenity-intro.png)
+![Create Amenity Dialog](/assets/images/amenities/04-create-amenity-intro.png)
 
 The dialog provides examples of different amenity types:
 - Non-bookable amenities (like a lounge anyone can use)
@@ -66,7 +66,7 @@ The dialog provides examples of different amenity types:
 
 Now you'll fill in the basic information about your amenity. All fields marked with an asterisk (*) are required.
 
-![Amenity Details Form](/assets/images/05-amenity-details-form.png)
+![Amenity Details Form](/assets/images/amenities/05-amenity-details-form.png)
 
 Complete the following fields:
 
@@ -112,7 +112,7 @@ Complete the following fields:
   - Closing Time: `23:00`
 - Use 24-hour format (e.g., 18:00 for 6 PM, 23:00 for 11 PM)
 
-![Filled Amenity Details](/assets/images/06-amenity-details-filled.png)
+![Filled Amenity Details](/assets/images/amenities/06-amenity-details-filled.png)
 
 4. Once all required fields are completed, click **Next**
 
@@ -120,7 +120,7 @@ Complete the following fields:
 
 The second step is where you control who can book the amenity and set booking restrictions.
 
-![Booking Configuration](/assets/images/07-booking-config-initial.png)
+![Booking Configuration](/assets/images/amenities/07-booking-config-initial.png)
 
 #### Bookable By
 
@@ -135,7 +135,7 @@ For our cinema room example, select **Tenants**.
 
 When you select "Tenants" as bookable by, additional options appear:
 
-![Tenant Booking Options](/assets/images/08-tenant-booking-options.png)
+![Tenant Booking Options](/assets/images/amenities/08-tenant-booking-options.png)
 
 **Tenant Booking Type**
 - **Private only**: Only one booking at a time; other tenants cannot see or join
@@ -162,7 +162,7 @@ For a cinema room where you want to prevent multiple simultaneous bookings, sele
 - For a cinema room with 20 seats, enter `20`
 - This field is required for private tenant bookings or public bookings
 
-![Filled Booking Configuration](/assets/images/09-booking-config-filled.png)
+![Filled Booking Configuration](/assets/images/amenities/09-booking-config-filled.png)
 
 #### Example Configuration Summary
 
@@ -182,7 +182,7 @@ The system will create your amenity and return you to the amenities list.
 
 After creation, you'll see your new amenity in the list:
 
-![Amenities List with New Cinema](/assets/images/10-amenities-list-with-new.png)
+![Amenities List with New Cinema](/assets/images/amenities/10-amenities-list-with-new.png)
 
 Click on the amenity name to view its details page.
 
@@ -190,7 +190,7 @@ Click on the amenity name to view its details page.
 
 The amenity details page has several sections:
 
-![Amenity Details - Bookings Tab](/assets/images/11-amenity-details-bookings.png)
+![Amenity Details - Bookings Tab](/assets/images/amenities/11-amenity-details-bookings.png)
 
 #### Details Section
 
@@ -218,7 +218,7 @@ The **Bookings** tab shows a calendar view of all current and future bookings:
 
 #### Configuration Tab
 
-![Amenity Configuration Tab](/assets/images/12-amenity-configuration.png)
+![Amenity Configuration Tab](/assets/images/amenities/12-amenity-configuration.png)
 
 The **Configuration** tab displays all the booking settings you configured:
 - **Bookable By**: Staff, Tenants (or just one)
@@ -234,18 +234,135 @@ To change these settings, click **Edit** in the Details section and navigate thr
 
 ## How Tenants Book the Cinema Room
 
-Once you've created the amenity, tenants can:
+Once you've created the amenity, tenants can book it through the Latch mobile app. Here's the complete booking workflow from the tenant's perspective:
 
-1. **Open the Latch mobile app** on their phone
-2. **Navigate to the Amenities section**
-3. **Select the Premium Cinema Room** from the list
-4. **View details**: See photos, description, rules, and location
-5. **Choose a date and time**: Select an available slot within the 6 PM - 11 PM window
-6. **Select duration**: Choose between 1 and 3 hours (in 30-minute increments)
-7. **Confirm the booking**: Submit the reservation
-8. **Receive confirmation**: Get a booking confirmation in the app
+### Step 1: Access Amenities
 
-Because the bookings are set to "Private only," once a tenant books a time slot, that time becomes unavailable to other tenants, preventing double bookings.
+Tenants open the Latch mobile app and navigate to the **Amenities** tab at the bottom of the screen.
+
+![Mobile Amenities List](/assets/images/amenities/mobile-03-amenities-list.png)
+
+The amenities list shows all available facilities with their descriptions and any upcoming bookings.
+
+### Step 2: View Amenity Details
+
+Tap on **Premium Cinema Room** to view full details about the amenity.
+
+![Mobile Amenity Details](/assets/images/amenities/mobile-04-amenity-details.png)
+
+The details page shows:
+- Full description of the cinema room
+- Location (Ground Floor, East Wing)
+- Usage rules
+- Opening times (18:00 - 23:00)
+- Events calendar showing current and upcoming bookings
+
+### Step 3: Start Booking Process
+
+Scroll down to the **Events** section and tap the **Book Premium Cinema Room** button.
+
+![Mobile Booking Calendar](/assets/images/amenities/mobile-06-booking-section.png)
+
+The Events section displays:
+- A calendar view with tabs for different days
+- Existing bookings for the selected day
+- Available time slots based on the opening hours
+
+### Step 4: Enter Booking Details
+
+The first screen asks for basic booking information.
+
+![Mobile Booking Details](/assets/images/amenities/mobile-07-booking-details.png)
+
+Enter:
+- **Name**: A descriptive name for your booking (e.g., "Movie Night with Friends")
+- **Description** (Optional): Additional details about the event
+
+Tap **Next** to continue.
+
+### Step 5: Select Date
+
+Choose the date for your booking.
+
+![Mobile Booking Date](/assets/images/amenities/mobile-08-booking-date.png)
+
+The date selector shows the current date by default. You can change it if needed.
+
+Tap **Next** to continue.
+
+### Step 6: Select Start Time
+
+Choose when your booking should start.
+
+![Mobile Booking Time](/assets/images/amenities/mobile-09-booking-time.png)
+
+Available time slots are shown based on:
+- The amenity's opening hours (6:00 PM - 11:00 PM)
+- The booking step interval (30-minute increments in this example)
+- Any existing bookings (unavailable times are not shown)
+
+Select your desired start time and tap **Next**.
+
+### Step 7: Select Duration
+
+Choose how long you want to book the cinema room.
+
+![Mobile Booking Duration](/assets/images/amenities/mobile-10-booking-duration.png)
+
+Available durations are shown based on:
+- Minimum booking length (1 hour)
+- Maximum booking length (3 hours)
+- Closing time constraints
+- Any subsequent bookings
+
+Select your desired end time and tap **Next**.
+
+### Step 8: Configure Access
+
+Choose who can join your booking.
+
+![Mobile Booking Access](/assets/images/amenities/mobile-11-booking-access.png)
+
+For amenities configured as "Private only," this is set to **Private - Only you can join** by default. This ensures exclusive use of the cinema room during your booking.
+
+Tap **Next** to continue.
+
+### Step 9: Confirm Booking
+
+Review all your booking details before confirming.
+
+![Mobile Booking Confirmation](/assets/images/amenities/mobile-12-booking-confirmation.png)
+
+The confirmation screen shows:
+- **Amenity**: Premium Cinema Room
+- **Date**: 23/10/2025
+- **Name**: Movie Night with Friends
+- **Description**: Let's watch a great film together!
+- **Time**: 19:00 - 21:00
+- **Access**: Private
+
+If everything looks correct, tap **Create Booking** to confirm.
+
+### Step 10: Booking Confirmed
+
+Once created, you'll see a success message and your booking appears in the Events calendar.
+
+![Mobile Booking Success](/assets/images/amenities/mobile-13-booking-success.png)
+
+The booking is now confirmed and visible:
+- In your personal bookings list
+- On the amenity's Events calendar
+- The time slot becomes unavailable to other tenants (because it's set to "Private only")
+
+---
+
+### Key Points for Tenant Bookings
+
+- **Private bookings** mean only one tenant can book a time slot - preventing conflicts
+- **Time constraints** are enforced automatically - tenants can only book during opening hours
+- **Duration limits** prevent monopolization - bookings must be between 1-3 hours
+- **Real-time availability** - the app only shows time slots that are actually available
+- **Instant confirmation** - bookings are confirmed immediately with no approval needed
 
 ---
 

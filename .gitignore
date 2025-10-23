@@ -21,3 +21,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Credentials (local only)
+CREDENTIALS.md
