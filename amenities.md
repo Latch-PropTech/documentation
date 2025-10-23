@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Amenities Feature Guide
+title: Amenities
 permalink: /amenities/
 ---
 
-# Amenities Feature Guide
+# Amenities
 
 ## Overview
 
@@ -364,16 +364,6 @@ A: The current system allows the booking tenant to bring guests up to the maximu
 
 **Q: How far in advance can tenants book?**
 A: This is configurable in your organization settings. Contact support to adjust the advance booking window.
-
----
-
-## Getting Help
-
-If you need assistance with the amenities feature:
-
-1. **Email Support**: support@latch.ooo
-2. **Feature Requests**: Include "[Amenities Feature Request]" in the subject line
-3. **Bug Reports**: Include screenshots and detailed steps to reproduce the issue
 
 ---
 
