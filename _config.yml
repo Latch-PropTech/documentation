@@ -1,0 +1,35 @@
+# Jekyll Configuration for Latch Documentation
+
+# Site settings
+title: Latch Documentation
+description: User guides and documentation for the Latch property management platform
+url: "https://docs.latch.ooo"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Plugin settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - amenities.md
+
+# Collections (for future organization)
+collections:
+  guides:
+    output: true
+    permalink: /guides/:name
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
